@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header,
+.section-1,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.section-1 {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.section-1 .left-side{
+    display: flex;
+    padding: 0 40px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-1 .right-side{
+    padding: 40px;
+}
+
+.section-2 {
+    padding: 0 0 100px 0;
+}
+
+.beps-imgs {
+    display: flex;
+    margin: 0 40px;
+    padding: 0;
+    justify-content: center;
+    gap: 30px;
+}
+
+.beps-imgs p {
+    max-width: 150px;
+    text-align: center;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 200px
+}
+
+.section-3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.section-3 .author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.section-4 {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-container {
+    display: flex;
+    gap: 50px;
+    background-color: #3882F6;
+    padding: 40px 80px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.action,
+.sign-call {
+    color: #E5E7EB;
+}
+
+.action {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.sign-call {
+    font-size: 16px;
+}
+
+.button-2 {
+    border-color: white;
+    border: 1px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+h5 {
+    margin: 20px;
+    color: #E5E7EB;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #3882F6;
+    color: white;
+    font-size: 14px;
+}
+
+img {
+    border-radius: 10px;
+}
